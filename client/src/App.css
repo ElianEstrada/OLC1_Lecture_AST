@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.editors {
+  display: flex;
+  height: 70vh;
+}
+
+.cm1 {
+  width: 50%;
+  margin: 1rem 0 0 0.5rem;
+  font-size: 16px;
+}
+
+.cm2 {
+  width: 50%;
+  margin: 1rem 0 0 0.5rem;
+  font-size: 16px;
+}
+
+.button {
+  margin: auto;
+}
+
+button {
+  color: white;
+}
+
+.btn1 {
+  margin-top: 1rem;
+  font-size: 20px;
+  padding: 0.5rem 2rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background: #0b7dda;
+}
+
+.btn2 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 20px;
+  padding: 0.5rem 2rem;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background: #46a049;
+}
